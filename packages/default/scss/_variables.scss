@@ -1160,6 +1160,7 @@ $scheduler-event-line-height: calc(#{$scheduler-event-min-height} - (2 * #{$padd
 $scheduler-event-selected-box-shadow: null !default;
 
 $scheduler-cell-height: $line-height-em;
+$scheduler-times-cell-min-width: 4rem;
 $scheduler-datecolumn-width: 12em;
 $scheduler-timecolumn-width: 11em;
 
