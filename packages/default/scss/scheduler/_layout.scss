@@ -91,6 +91,7 @@
                 display: flex;
                 flex: 1 1 auto;
                 flex-wrap: wrap;
+                overflow: auto;
             }
 
             &.k-group-horizontal {
@@ -112,6 +113,7 @@
             border-style: solid;
             border-width: 1px;
             vertical-align: top;
+            box-sizing: content-box;
 
             &.k-heading-cell {
                 justify-content: center;
@@ -120,9 +122,9 @@
 
             &.k-side-cell {
                 justify-content: flex-end;
-                min-width: $scheduler-times-cell-min-width;
                 flex-grow: 0;
                 flex-basis: auto;
+                overflow: visible;
             }
 
             &.k-group-content {
