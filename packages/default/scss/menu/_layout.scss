@@ -257,6 +257,10 @@ $image-spacing: 8px !default;
                 padding-left: add-two( (2 * $list-item-padding-x), $icon-size);
             }
         }
+
+        .k-menu-vertical .k-link {
+            padding-right: add-two($icon-size, $icon-spacing); // Save space in case there is an expand icon
+        }
     }
 
 }
